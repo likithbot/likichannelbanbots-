@@ -1,0 +1,14 @@
+telethon>=1.34.0
+python-dotenv>=1.0.0
+
+# pytgcalls is OPTIONAL - raw update monitoring works without it
+# 
+# NOTE: pytgcalls has dependency conflicts on Heroku (ntgcalls version issues)
+# The bot works perfectly without pytgcalls - it uses raw Telethon updates
+# 
+# If you want to install pytgcalls locally (not on Heroku), you can try:
+# pip install git+https://github.com/pytgcalls/pytgcalls.git
+# 
+# However, this may fail due to ntgcalls>=2.0.7 not being available on PyPI
+# The bot will automatically detect if pytgcalls is available and use it if present
+

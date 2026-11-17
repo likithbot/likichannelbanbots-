@@ -1,0 +1,16 @@
+user:
+  name: taslim
+  github: taslim19
+
+runtime:
+  image: "python-node-js"
+
+commands:
+  package: ""
+  build:
+    - "pip install -r requirements.txt"
+  start: "python3 vc_participant_monitor.py"
+
+repository:
+  branch: "main"
+  auto_deploy: false
